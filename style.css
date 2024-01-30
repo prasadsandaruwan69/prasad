@@ -1,0 +1,249 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 14rem;
+    background-color: rgb(6, 54, 6);
+    display: flex;
+   
+}
+.maincontainer{
+    background-color: aqua;
+    height: 57rem;
+    background:url(pl.jpg);
+background-position: center;
+background-size: cover;
+height: 100vh;
+margin: 0.5rem;
+}
+
+
+.mainlogo{
+    display: flex;
+    margin-left: 5rem;
+}
+.cn{
+    margin-left: 14rem;
+    display: flex;
+}
+
+.LN{
+    margin-left: 14rem;
+    display: flex;
+    margin-top: 2.5rem;
+}
+.logoT{
+    display: flex;
+
+}
+.logoTT{
+    display: flex;
+    margin-left: -40rem;
+    margin-top: 8rem;
+}
+.ssection{
+    width: 70rem;
+    height: 5rem;
+    margin-left: 14rem;
+    background-color: rgb(14, 14, 15);
+    position: absolute;
+    margin-top: -2rem;
+    
+}
+nav ul{
+    display: flex;
+}
+ul li{
+margin-left: 6rem;
+margin-top: 2rem;
+color: aliceblue;
+list-style: none;
+text-decoration: none;
+}
+ul li a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.company{
+    margin-left: 19rem;
+    margin-top: 13rem;
+  
+    
+}
+.companyy{
+    margin-left: 19rem;
+    margin-top: 0rem;
+  
+    
+}
+.baner-btn{
+    margin-left: 19rem;
+    margin-top: 1rem;
+}
+.baner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 12px 0;
+    color: aliceblue;
+    border: .5px solid;
+    position: relative;
+   z-index: 1;
+   transition: color 0.5s;
+
+}
+
+.baner-btn a span{
+    width: 0%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background: #fff;
+z-index: -1;
+transition:0.5s ;
+}
+.baner-btn a:hover {
+    color: black;
+}
+.baner-btn a:hover span{
+    width: 100%;
+}
+.hh1{
+   text-align: center;
+    margin-top: 5rem;
+    margin-left: -11rem;
+    font-size: 46px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hh2{
+ text-align: center;
+ margin-left: -1rem;
+    color: green;
+    font-size: 46px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+   
+}
+.secondcontainer{
+    display: flex;
+   width: 100%; 
+   background-color: rgb(251, 251, 251);
+}
+.paradiv{
+    width: 50%;
+}
+.pp{
+   
+    font-size: 27px;
+    margin: 4rem;
+    margin-left: 8rem;
+}
+.pana{
+    background-color: rgb(3, 53, 11);
+    width: 33rem;
+    height: 33rem;
+    border: 1px;
+    border-radius: 520px;
+    margin-top: 5rem;
+  
+}
+.paradiv2{
+    width: 50%;
+    margin-top: 3rem;
+}
+.menika{
+    background-color: rgb(241, 246, 242);
+    width: 28rem;
+    height: 28rem;
+    border: 1px;
+    border-radius: 520px;
+    margin-top: 5rem;
+    position: absolute;
+    margin-top: -31rem;
+    margin-left: -3rem;
+    background-image: url(we4.jpg);
+   
+    
+}
+.webtn{ background-color: rgb(227, 243, 227);
+border: 1px;
+border-radius:19px;
+width: 15rem;
+height: 3.1rem;
+margin-left: 12rem;
+margin-top: -3rem;
+position: absolute;
+color: #070707;}
+.webtn:hover{
+    background-color: green;
+    color: aliceblue;
+}
+.greendiv{
+    margin-top: 4rem;
+    height: 16rem;
+    background-color: rgb(4, 52, 4);
+    display: flex;
+    margin: 2rem;
+}
+
+.gdiv{
+    color: azure;
+    margin-left: 12rem;
+    margin-top: 7rem;
+   
+}
+.sub2div{
+    height: 58rem;
+    background-color: rgb(9, 53, 9);
+    margin: 2rem;
+    display: flex;
+    color: #fff;
+}
+.sub2div1{
+    margin-top: 9rem;
+    margin-left: 7rem;
+   width: 23rem;
+}
+.sub2div2{
+    margin-top: 17rem;
+    margin-left: 2rem;
+   width: 23rem;
+}
+.sub2div3{
+    margin-top: 27rem;
+    margin-left: 2rem;
+   width: 23rem;
+    
+}
+.buttond1{margin-top: 7rem;margin-left: 5rem;
+width: 12rem;
+height: 3rem;
+background-color: white;
+color: black;
+border: 1px;
+border-radius: 10px;
+font-size: 16px;
+}
+.buttond1:hover{
+    background-color: green;
+    color: aliceblue;
+}
+.mani{
+    display: flex;
+    margin-top: 3rem;
+}
+.mani1{
+    margin-left: 6.5rem;
+}
+.apptext1{
+    background-color: green;
+    text-align: center;
+    height: 4rem;
+    color: #fff;
+  position: relative;
+   margin-top: -4rem;
+}
